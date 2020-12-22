@@ -1,0 +1,39 @@
+{
+  "name": "nestjs-swagger-reverse-proxy",
+  "main": "./dist/src/main.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "description": "Using reverse proxy with nestjs and swagger.",
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch"
+  },
+  "dependencies": {
+    "@nestjs/cli": "^7.5.4",
+    "@nestjs/common": "^7.6.4",
+    "@nestjs/core": "^7.6.4",
+    "@nestjs/platform-fastify": "^7.6.4",
+    "@nestjs/schematics": "^7.2.5",
+    "@nestjs/swagger": "^4.7.8",
+    "class-validator": "^0.12.2",
+    "fastify": "^3.9.2",
+    "fastify-swagger": "^3.5.0",
+    "pm2": "^4.5.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "@types/node": "^14.0.6",
+    "ts-loader": "^7.0.5",
+    "ts-node": "^8.10.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.3"
+  }
+}

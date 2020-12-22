@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "rootDirs": ["./src"],
+    "target": "es2019",
+    "module": "commonjs",
+    "sourceMap": false,
+    "outDir": "dist",
+    "strictNullChecks": false,
+    "allowJs": false,
+    "strict": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "noEmitOnError": false,
+    "downlevelIteration": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true
+  }
+}
