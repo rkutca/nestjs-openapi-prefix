@@ -23,13 +23,10 @@
     "class-validator": "^0.12.2",
     "fastify": "^3.9.2",
     "fastify-swagger": "^3.5.0",
-    "pm2": "^4.5.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.1.1",
-    "@commitlint/config-conventional": "^9.1.1",
     "@types/node": "^14.0.6",
     "ts-loader": "^7.0.5",
     "ts-node": "^8.10.2",

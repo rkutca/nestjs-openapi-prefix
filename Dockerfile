@@ -7,7 +7,7 @@ WORKDIR /home/usr/app
 COPY . .
 
 # build the app
-RUN npm i && npm run build
+RUN npm ci && npm run build
 
 # expose at port 3000
 EXPOSE 3000
